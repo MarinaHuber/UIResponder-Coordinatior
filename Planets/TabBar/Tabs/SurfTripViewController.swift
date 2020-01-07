@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class SurfTripViewController: UIViewController {
+class SurfTripViewController: UIViewController, Storyboarded {
     
     lazy var leftBtn: UIBarButtonItem = {
         let button = UIButton(type: .system)
@@ -23,6 +23,7 @@ class SurfTripViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.leftBarButtonItem = leftBtn
 
     }
  

@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class SavedTripsViewController: UIViewController {
+class SavedTripsViewController: UIViewController, Storyboarded {
 
 }
 

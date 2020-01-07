@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PriceCalculatorViewController: UIViewController {
+class PriceCalculatorViewController: UIViewController, Storyboarded {
 
 
 

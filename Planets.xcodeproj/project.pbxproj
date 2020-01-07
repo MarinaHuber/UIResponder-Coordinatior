@@ -11,6 +11,10 @@
 		9C66245823C47D29005E38CE /* PriceCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66245623C47D29005E38CE /* PriceCalculatorViewController.swift */; };
 		9C66245C23C47D3C005E38CE /* SurfTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66245A23C47D3C005E38CE /* SurfTripViewController.swift */; };
 		9C66245F23C47D4B005E38CE /* SavedTripsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66245D23C47D4B005E38CE /* SavedTripsViewController.swift */; };
+		9C73010E23C4D19000B98F8C /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C73010D23C4D19000B98F8C /* Storyboarded.swift */; };
+		9C73011023C4D39800B98F8C /* SurfTripViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C73010F23C4D39800B98F8C /* SurfTripViewController.storyboard */; };
+		9C73011223C4D41300B98F8C /* PriceCalculatorViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C73011123C4D41300B98F8C /* PriceCalculatorViewController.storyboard */; };
+		9C73011423C4D45B00B98F8C /* SavedTripsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C73011323C4D45B00B98F8C /* SavedTripsViewController.storyboard */; };
 		C881D750209AE7EB001D7B6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C881D74F209AE7EB001D7B6D /* AppDelegate.swift */; };
 		C881D755209AE7EB001D7B6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C881D753209AE7EB001D7B6D /* Main.storyboard */; };
 		C881D757209AE7EC001D7B6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C881D756209AE7EC001D7B6D /* Assets.xcassets */; };
@@ -30,6 +34,10 @@
 		9C66245623C47D29005E38CE /* PriceCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceCalculatorViewController.swift; sourceTree = "<group>"; };
 		9C66245A23C47D3C005E38CE /* SurfTripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurfTripViewController.swift; sourceTree = "<group>"; };
 		9C66245D23C47D4B005E38CE /* SavedTripsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedTripsViewController.swift; sourceTree = "<group>"; };
+		9C73010D23C4D19000B98F8C /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		9C73010F23C4D39800B98F8C /* SurfTripViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SurfTripViewController.storyboard; sourceTree = "<group>"; };
+		9C73011123C4D41300B98F8C /* PriceCalculatorViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PriceCalculatorViewController.storyboard; sourceTree = "<group>"; };
+		9C73011323C4D45B00B98F8C /* SavedTripsViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SavedTripsViewController.storyboard; sourceTree = "<group>"; };
 		C881D74C209AE7EB001D7B6D /* Planets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C881D74F209AE7EB001D7B6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C881D754209AE7EB001D7B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -69,11 +77,22 @@
 		9C66245423C47D1D005E38CE /* Tabs */ = {
 			isa = PBXGroup;
 			children = (
-				9C66245D23C47D4B005E38CE /* SavedTripsViewController.swift */,
+				9C73010F23C4D39800B98F8C /* SurfTripViewController.storyboard */,
 				9C66245A23C47D3C005E38CE /* SurfTripViewController.swift */,
+				9C73011323C4D45B00B98F8C /* SavedTripsViewController.storyboard */,
+				9C66245D23C47D4B005E38CE /* SavedTripsViewController.swift */,
+				9C73011123C4D41300B98F8C /* PriceCalculatorViewController.storyboard */,
 				9C66245623C47D29005E38CE /* PriceCalculatorViewController.swift */,
 			);
 			path = Tabs;
+			sourceTree = "<group>";
+		};
+		9C73010C23C4D17200B98F8C /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				9C73010D23C4D19000B98F8C /* Storyboarded.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		C881D743209AE7EB001D7B6D = {
@@ -96,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				C881D77A209AF96D001D7B6D /* ScenePresenting.swift */,
+				9C73010C23C4D17200B98F8C /* Protocol */,
 				9C23F68323C47A8B00A42B89 /* TabBar */,
 				C881D74F209AE7EB001D7B6D /* AppDelegate.swift */,
 				C881D761209AEAB9001D7B6D /* SceneManager.swift */,
@@ -197,9 +217,12 @@
 			files = (
 				C881D75A209AE7EC001D7B6D /* LaunchScreen.storyboard in Resources */,
 				C881D76D209AEF16001D7B6D /* PlanetTableViewController.xib in Resources */,
+				9C73011023C4D39800B98F8C /* SurfTripViewController.storyboard in Resources */,
 				C881D757209AE7EC001D7B6D /* Assets.xcassets in Resources */,
 				C881D779209AF867001D7B6D /* DetailedPlanetViewController.xib in Resources */,
 				C881D755209AE7EB001D7B6D /* Main.storyboard in Resources */,
+				9C73011423C4D45B00B98F8C /* SavedTripsViewController.storyboard in Resources */,
+				9C73011223C4D41300B98F8C /* PriceCalculatorViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +244,7 @@
 				9C66245C23C47D3C005E38CE /* SurfTripViewController.swift in Sources */,
 				C881D762209AEAB9001D7B6D /* SceneManager.swift in Sources */,
 				C881D750209AE7EB001D7B6D /* AppDelegate.swift in Sources */,
+				9C73010E23C4D19000B98F8C /* Storyboarded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
