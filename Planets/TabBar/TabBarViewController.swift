@@ -33,7 +33,7 @@ final class TabBarViewController: UITabBarController {
         recommendVC.view.backgroundColor = .blue
         let storyboardPrice: UIStoryboard = UIStoryboard(name: "PriceCalculatorViewController", bundle: nil)
         let priceVC: PriceCalculatorViewController = PriceCalculatorViewController.instantiate(from: storyboardPrice)
-        priceVC.title = "History"
+        priceVC.title = "Calculator"
         priceVC.view.backgroundColor = .cyan
         saveVC.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 0)
         recommendVC.tabBarItem = UITabBarItem(tabBarSystemItem: .downloads, tag: 1)

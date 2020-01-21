@@ -24,7 +24,6 @@ class SurfTripViewController: UIViewController, Storyboarded {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.leftBarButtonItem = leftBtn
-
     }
  
     @objc func popToRoot(_ sender: UIBarButtonItem) {
