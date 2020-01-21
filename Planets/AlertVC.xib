@@ -7,9 +7,13 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AlertVC" customModule="Planets" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="KH6-6D-7pS" id="OeR-17-Lom"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="KH6-6D-7pS" customClass="GradientView" customModule="Unwrap" customModuleProvider="target">
+        <view contentMode="scaleToFill" id="KH6-6D-7pS" customClass="GradientView" customModule="Planets" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>

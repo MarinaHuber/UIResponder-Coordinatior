@@ -61,9 +61,11 @@ final class PlanetTableViewController: UITableViewController {
         navigationItem.rightBarButtonItem = leftBtn
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "PlanetCellIdentifier")
         
+        let viewController = AlertVC()
+        
         presenter.viewControllerForContext = self
         presenter.outsideContextTap = .passthrough
-        customPresentViewController(presenter, viewController: alertController, animated: true, completion: nil)
+        customPresentViewController(presenter, viewController: viewController, animated: true, completion: nil)
         
     }
     

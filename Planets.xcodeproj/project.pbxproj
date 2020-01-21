@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2C736489B6A4A5BD6F9844F1 /* Pods_Planets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C28B0BBDA04814F2B90A8179 /* Pods_Planets.framework */; };
+		9C1A985323D765E70050C7BC /* AlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1A985223D765E70050C7BC /* AlertVC.swift */; };
 		9C66245323C47B77005E38CE /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66245223C47B77005E38CE /* TabBarViewController.swift */; };
 		9C66245823C47D29005E38CE /* PriceCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66245623C47D29005E38CE /* PriceCalculatorViewController.swift */; };
 		9C66245C23C47D3C005E38CE /* SurfTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66245A23C47D3C005E38CE /* SurfTripViewController.swift */; };
@@ -35,6 +36,7 @@
 /* Begin PBXFileReference section */
 		20291E51AC5D53DE521BBFC3 /* Pods-Planets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Planets.release.xcconfig"; path = "Target Support Files/Pods-Planets/Pods-Planets.release.xcconfig"; sourceTree = "<group>"; };
 		693AACFB7B0BF4DD77A7410F /* Pods-Planets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Planets.debug.xcconfig"; path = "Target Support Files/Pods-Planets/Pods-Planets.debug.xcconfig"; sourceTree = "<group>"; };
+		9C1A985223D765E70050C7BC /* AlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertVC.swift; sourceTree = "<group>"; };
 		9C66245223C47B77005E38CE /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		9C66245623C47D29005E38CE /* PriceCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceCalculatorViewController.swift; sourceTree = "<group>"; };
 		9C66245A23C47D3C005E38CE /* SurfTripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurfTripViewController.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 				9C23F68323C47A8B00A42B89 /* TabBar */,
 				C881D74F209AE7EB001D7B6D /* AppDelegate.swift */,
 				C881D761209AEAB9001D7B6D /* SceneManager.swift */,
+				9C1A985223D765E70050C7BC /* AlertVC.swift */,
 				9CF936EA23CD208600A8C72D /* GradientView.swift */,
 				9CF936EC23CD21E400A8C72D /* AlertVC.xib */,
 				C881D753209AE7EB001D7B6D /* Main.storyboard */,
@@ -321,6 +324,7 @@
 				9CF936EB23CD208600A8C72D /* GradientView.swift in Sources */,
 				C881D750209AE7EB001D7B6D /* AppDelegate.swift in Sources */,
 				9C73010E23C4D19000B98F8C /* Storyboarded.swift in Sources */,
+				9C1A985323D765E70050C7BC /* AlertVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
